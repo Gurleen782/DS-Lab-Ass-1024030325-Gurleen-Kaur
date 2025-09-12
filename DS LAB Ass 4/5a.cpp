@@ -40,6 +40,7 @@ int main() {
     s.push(3);
     cout << "Top element: " << s.top() << endl;
     s.pop();
+    cout << "Top element after pop: " << s.top() << endl;
     cout << (s.empty() ? "empty" : "not empty") << endl;
     return 0;
 }
